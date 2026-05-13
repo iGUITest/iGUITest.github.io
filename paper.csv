@@ -1,0 +1,4 @@
+year,id,title,link,status,author,cofauthor,corauthor,level,venue
+2026,1,Scenario-Guided LLM-based Mobile App GUI Testing,https://arxiv.org/abs/2506.05079,ac,"Shengcheng Yu, Yuchen Ling, Chunrong Fang, Quan Zhou, Yi Zhao, Chunyang Chen, Shaomin Zhu, Zhenyu Chen",/,Chunrong Fang,CCF-A,ACM Transactions on Software Engineering and Methodology (TOSEM)
+2026,2,Towards Automated Crowdsourced Testing via Personified-LLM,http://arxiv.org/abs/2603.24160,ac,"Shengcheng Yu, Yuchen Ling, Chunrong Fang, Zhenyu Chen, Chunyang Chen",/,/,CCF-A,ACM International Conference on the Foundations of Software Engineering (FSE)
+2025,3,Vision-Based Mobile App GUI Testing: A Survey,https://doi.org/10.1145/3773027,pb,"Shengcheng Yu, Chunrong Fang, Ziyuan Tuo, Quanjun Zhang, Chunyang Chen, Zhenyu Chen, Zhendong Su",/,Chunrong Fang,/,ACM Computing Surveys (CSUR)
