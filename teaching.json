@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Software Testing",
+    "description": "Core teaching around test design, coverage strategies, defect analysis, regression testing, and industrial testing workflows.",
+    "tag": "Core course support"
+  },
+  {
+    "title": "Mobile Application Quality Assurance",
+    "description": "Practice-oriented material covering GUI exploration, scenario-based testing, cross-platform behavior, and test automation for mobile software.",
+    "tag": "Research-to-course transfer"
+  },
+  {
+    "title": "LLMs in Software Engineering",
+    "description": "Emerging content on prompt-driven engineering tasks, tool use, evaluation methods, and limitations of LLM-assisted testing.",
+    "tag": "Emerging topic"
+  },
+  {
+    "title": "Research-led Student Training",
+    "description": "Students participate in reading groups, benchmark construction, replication studies, and paper-oriented project work derived from active research topics.",
+    "tag": "Project-based training"
+  }
+]

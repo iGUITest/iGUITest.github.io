@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Selected Awards",
+    "image": "award.gif",
+    "items": [
+      "Best Paper Award, DSA 2023",
+      "First Place Award, ASE 2019 Student Research Competition",
+      "Multiple publications in top-tier software engineering venues"
+    ]
+  },
+  {
+    "title": "Research Support Profile",
+    "items": [
+      "Supported by long-term university research activity in software engineering and testing.",
+      "Strengthened by collaboration across Nanjing University, ETH Zurich, and TUM.",
+      "Built on empirical datasets, test infrastructure, and student-led research participation."
+    ]
+  },
+  {
+    "title": "Typical Project Footprint",
+    "items": [
+      "Scenario-based mobile app testing systems",
+      "Image-text understanding for report analysis",
+      "LLM-assisted test generation and evaluation pipelines"
+    ]
+  }
+]

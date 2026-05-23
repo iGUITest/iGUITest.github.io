@@ -3,183 +3,380 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Paper List</title>
-  <style>
-    body {
-      margin: 32px;
-      color: #111;
-      background: #fff;
-    }
-
-    h1 {
-      margin: 0 0 24px 0;
-      font-size: 28px;
-      font-weight: 700;
-    }
-
-    h3 {
-      margin: 28px 0 12px 0;
-    }
-
-    .paper {
-      margin: 0 0 18px 0;
-      font-size: 18px;
-      line-height: 1.5;
-    }
-
-    .paper-line {
-      margin: 2px 0;
-    }
-
-    .paper-title a {
-      color: inherit;
-      text-decoration: none;
-    }
-
-    .paper-title a:hover {
-      text-decoration: underline;
-    }
-
-    sup {
-      font-size: 75%;
-      line-height: 0;
-      vertical-align: super;
-    }
-
-    #message {
-      margin: 16px 0 24px 0;
-      padding: 12px 14px;
-      border: 1px solid #ddd;
-      background: #fafafa;
-      font-size: 15px;
-      line-height: 1.5;
-      display: none;
-    }
-
-    #csv-file {
-      margin-top: 10px;
-    }
-  </style>
+  <meta
+    name="description"
+    content="iGUITest Research Group focuses on intelligent GUI testing, mobile software quality, and large language models for software engineering."
+  />
+  <title>iGUITest Research Group</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>论文列表</h1>
-  <div id="message"></div>
-  <main id="paper-list"></main>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">iGUITest Research Group</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#members">Members</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#support">Awards &amp; Funding</a>
+        <a href="#teaching">Teaching</a>
+      </nav>
+    </div>
+  </header>
 
+  <main id="top">
+    <section class="hero">
+      <div class="hero-backdrop" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Nanjing University • Software Testing • Mobile Intelligence</p>
+          <h1>Reliable testing research for mobile interfaces, intelligent agents, and modern software engineering.</h1>
+          <p class="hero-text">
+            The iGUITest Research Group studies how visual understanding, learning-based agents,
+            and large language models can make software testing more practical, scalable, and
+            education-ready for real mobile applications.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#publications">View Publications</a>
+            <a class="button button-secondary" href="#research">Research Areas</a>
+          </div>
+          <dl class="hero-stats">
+            <div>
+              <dt id="stat-publications">--</dt>
+              <dd>Publications since 2019</dd>
+            </div>
+            <div>
+              <dt id="stat-years">--</dt>
+              <dd>Publication years covered</dd>
+            </div>
+            <div>
+              <dt id="stat-venues">--</dt>
+              <dd>Journals and conference series</dd>
+            </div>
+          </dl>
+        </div>
+
+        <aside class="hero-card">
+          <img src="YSC.jpg" alt="Portrait of Shengcheng Yu" class="hero-portrait" />
+          <div class="hero-card-body">
+            <p class="card-label">Representative Profile</p>
+            <h2>Shengcheng Yu</h2>
+            <p>
+              Researcher in software testing, mobile GUI understanding, and large language model
+              applications for software engineering.
+            </p>
+            <ul class="compact-list">
+              <li>Cross-platform mobile app testing</li>
+              <li>Crowdsourced testing intelligence</li>
+              <li>LLM-based test generation and migration</li>
+            </ul>
+            <div class="hero-card-links">
+              <span>Top venues: ICSE, FSE, TSE, TOSEM, ASE</span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="affiliations">
+      <div class="container affiliations-inner">
+        <p>Academic context and collaboration</p>
+        <div class="logo-row">
+          <img src="ETH.svg" alt="ETH Zurich" />
+          <img src="TUM.png" alt="Technical University of Munich" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container two-column">
+        <div>
+          <p class="eyebrow">Team Background</p>
+          <h2>Building dependable testing methods for modern software systems.</h2>
+        </div>
+        <div class="section-copy">
+          <p>
+            The group is rooted in software engineering research at Nanjing University and works at
+            the intersection of software testing, computer vision, empirical software engineering,
+            and human-centered quality assurance. Our recent work emphasizes practical testing
+            automation for mobile apps, especially when graphical interfaces, cross-platform
+            behaviors, and natural-language task descriptions are central to the problem.
+          </p>
+          <p>
+            Over the past several years, the team has published in leading venues including
+            <strong>ICSE</strong>, <strong>FSE</strong>, <strong>TSE</strong>,
+            <strong>TOSEM</strong>, <strong>ASE</strong>, and <strong>CSUR</strong>, with a
+            consistent focus on methods that can transfer from lab settings into real engineering
+            workflows and software testing education.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-tight">
+      <div class="container">
+        <div class="overview-grid">
+          <article class="overview-card">
+            <p class="overview-label">Mission</p>
+            <h3>Bridge advanced testing research with deployable engineering practice.</h3>
+            <p>
+              The group builds methods that work on realistic mobile apps rather than idealized
+              benchmarks alone.
+            </p>
+          </article>
+          <article class="overview-card">
+            <p class="overview-label">Method Stack</p>
+            <h3>Vision, program analysis, reinforcement learning, and LLM reasoning.</h3>
+            <p>
+              Research combines GUI perception, scenario understanding, and automation pipelines for
+              end-to-end quality assurance.
+            </p>
+          </article>
+          <article class="overview-card">
+            <p class="overview-label">Output</p>
+            <h3>Publications, datasets, tools, and teaching-facing testing workflows.</h3>
+            <p>
+              The work is designed to support both academic impact and student training in software
+              engineering.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="members">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Team Members</p>
+          <h2>Representative members and collaborators</h2>
+        </div>
+        <div id="member-list" class="member-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="research">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Research Areas</p>
+          <h2>Four connected themes shape the group's work.</h2>
+        </div>
+        <div class="research-grid">
+          <article class="research-card">
+            <p class="research-index">01</p>
+            <h3>Mobile GUI Testing</h3>
+            <p>
+              Visual understanding, layout analysis, and scenario-guided exploration for testing
+              real mobile interfaces across platforms and devices.
+            </p>
+          </article>
+          <article class="research-card">
+            <p class="research-index">02</p>
+            <h3>LLMs for Software Testing</h3>
+            <p>
+              Test script generation, migration, retrieval-augmented reasoning, and automated
+              support for testing workflows using large language models.
+            </p>
+          </article>
+          <article class="research-card">
+            <p class="research-index">03</p>
+            <h3>Crowdsourced Testing Intelligence</h3>
+            <p>
+              Prioritization, clustering, report assessment, and consistency detection through joint
+              image-text analysis and human-centered modeling.
+            </p>
+          </article>
+          <article class="research-card">
+            <p class="research-index">04</p>
+            <h3>Testing Education and Tooling</h3>
+            <p>
+              Reproducible datasets, benchmark design, hands-on testing platforms, and course-facing
+              teaching material for modern software quality engineering.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="publications">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Publications</p>
+          <h2>All publications</h2>
+          <p class="section-intro">
+            Complete publication list rendered from the repository dataset and grouped by year.
+          </p>
+        </div>
+        <div class="publication-summary">
+          <div class="summary-chip">
+            <span class="summary-label">Total</span>
+            <strong id="summary-total">--</strong>
+          </div>
+          <div class="summary-chip">
+            <span class="summary-label">Top-tier venues</span>
+            <strong>ICSE, FSE, TSE, TOSEM, ASE</strong>
+          </div>
+          <div class="summary-chip">
+            <span class="summary-label">Coverage</span>
+            <strong id="summary-range">2019-2026</strong>
+          </div>
+        </div>
+        <div id="publication-list" class="publication-list"></div>
+      </div>
+    </section>
+
+    <section class="section" id="support">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Awards and Funding</p>
+          <h2>Recognition and sustained research support</h2>
+        </div>
+        <div id="support-list" class="support-grid"></div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="teaching">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Teaching</p>
+          <h2>Connecting research with software testing education</h2>
+        </div>
+        <div id="teaching-list" class="teaching-grid"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>iGUITest Research Group</strong>
+        <p>Software testing, mobile GUI intelligence, and LLM-enabled software engineering.</p>
+      </div>
+      <p class="footer-note">Static site for GitHub Pages.</p>
+    </div>
+  </footer>
   <script>
-    const DEFAULT_CSV_FILE = 'paper.csv';
+    const DEFAULT_CSV_FILE = "paper.csv";
+    const MEMBERS_FILE = "members.json";
+    const SUPPORT_FILE = "support.json";
+    const TEACHING_FILE = "teaching.json";
 
-    document.addEventListener('DOMContentLoaded', () => {
-      loadCsvAutomatically();
+    document.addEventListener("DOMContentLoaded", () => {
+      loadMembers();
+      loadPublications();
+      loadSupport();
+      loadTeaching();
     });
 
-    async function loadCsvAutomatically() {
-      const csvFile = new URLSearchParams(window.location.search).get('csv') || DEFAULT_CSV_FILE;
+    async function loadMembers() {
+      const container = document.getElementById("member-list");
+      if (!container) return;
 
       try {
-        const response = await fetch(csvFile, { cache: 'no-store' });
-        if (!response.ok) {
-          throw new Error(`HTTP ${response.status}`);
-        }
-        const csvText = await response.text();
-        renderPapers(parseCsv(csvText));
+        const records = await loadJson(MEMBERS_FILE);
+        renderMembers(container, records);
       } catch (error) {
-        showFallback(csvFile, error);
+        renderError(container, "Unable to load member data.");
+        console.warn("Failed to load members:", error);
       }
     }
 
-    function showFallback(csvFile, error) {
-      const message = document.getElementById('message');
-      message.style.display = 'block';
-      message.textContent = '';
+    async function loadPublications() {
+      const container = document.getElementById("publication-list");
+      if (!container) return;
 
-      const text = document.createElement('div');
-      text.textContent = `未能自动读取 ${csvFile}。请确认 CSV 与本 HTML 位于同一目录，或通过本地服务器打开页面。本地 file:// 打开时，部分浏览器会阻止自动读取同目录文件。也可以在下方手动选择 CSV 文件。`;
-      message.appendChild(text);
+      try {
+        const response = await fetch(DEFAULT_CSV_FILE, { cache: "no-store" });
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const csvText = await response.text();
+        renderPublications(container, parseCsv(csvText));
+      } catch (error) {
+        renderError(container, "Unable to load publication data.");
+        console.warn("Failed to load publications:", error);
+      }
+    }
 
-      const input = document.createElement('input');
-      input.id = 'csv-file';
-      input.type = 'file';
-      input.accept = '.csv,text/csv';
-      input.addEventListener('change', event => {
-        const file = event.target.files && event.target.files[0];
-        if (!file) return;
+    async function loadSupport() {
+      const container = document.getElementById("support-list");
+      if (!container) return;
 
-        const reader = new FileReader();
-        reader.onload = () => {
-          renderPapers(parseCsv(String(reader.result || '')));
-          message.style.display = 'none';
-        };
-        reader.onerror = () => {
-          text.textContent = '读取所选 CSV 文件失败。';
-        };
-        reader.readAsText(file, 'utf-8');
-      });
-      message.appendChild(input);
+      try {
+        const records = await loadJson(SUPPORT_FILE);
+        renderSupport(container, records);
+      } catch (error) {
+        renderError(container, "Unable to load awards and funding data.");
+        console.warn("Failed to load support data:", error);
+      }
+    }
 
-      console.warn('CSV auto-load failed:', error);
+    async function loadTeaching() {
+      const container = document.getElementById("teaching-list");
+      if (!container) return;
+
+      try {
+        const records = await loadJson(TEACHING_FILE);
+        renderTeaching(container, records);
+      } catch (error) {
+        renderError(container, "Unable to load teaching data.");
+        console.warn("Failed to load teaching data:", error);
+      }
+    }
+
+    async function loadJson(path) {
+      const response = await fetch(path, { cache: "no-store" });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return response.json();
     }
 
     function parseCsv(text) {
       const rows = [];
       let row = [];
-      let field = '';
+      let field = "";
       let inQuotes = false;
-
-      const input = text.replace(/^\uFEFF/, '');
+      const input = text.replace(/^\uFEFF/, "");
 
       for (let i = 0; i < input.length; i++) {
         const char = input[i];
         const nextChar = input[i + 1];
 
-        if (char === '"') {
-          if (inQuotes && nextChar === '"') {
-            field += '"';
+        if (char === "\"") {
+          if (inQuotes && nextChar === "\"") {
+            field += "\"";
             i++;
           } else {
             inQuotes = !inQuotes;
           }
-        } else if (char === ',' && !inQuotes) {
+        } else if (char === "," && !inQuotes) {
           row.push(field);
-          field = '';
-        } else if ((char === '\n' || char === '\r') && !inQuotes) {
-          if (char === '\r' && nextChar === '\n') {
-            i++;
-          }
+          field = "";
+        } else if ((char === "\n" || char === "\r") && !inQuotes) {
+          if (char === "\r" && nextChar === "\n") i++;
           row.push(field);
-          if (row.some(cell => cell.trim() !== '')) {
-            rows.push(row);
-          }
+          if (row.some(cell => cell.trim() !== "")) rows.push(row);
           row = [];
-          field = '';
+          field = "";
         } else {
           field += char;
         }
       }
 
-      if (field !== '' || row.length > 0) {
+      if (field !== "" || row.length > 0) {
         row.push(field);
-        if (row.some(cell => cell.trim() !== '')) {
-          rows.push(row);
-        }
+        if (row.some(cell => cell.trim() !== "")) rows.push(row);
       }
 
       if (rows.length === 0) return [];
 
       const headers = rows[0].map(header => header.trim());
-      return rows.slice(1).map(rowValues => {
+      return rows.slice(1).map(values => {
         const record = {};
         headers.forEach((header, index) => {
-          record[header] = rowValues[index] === undefined ? '' : rowValues[index].trim();
+          record[header] = values[index] === undefined ? "" : values[index].trim();
         });
         return record;
       });
     }
 
-    function renderPapers(records) {
-      const container = document.getElementById('paper-list');
-      container.textContent = '';
-
+    function renderPublications(container, records) {
       const sortedRecords = records
         .filter(record => hasValue(record.year) && hasValue(record.title))
         .sort((a, b) => {
@@ -188,132 +385,233 @@
           return numberOrFallback(a.id) - numberOrFallback(b.id);
         });
 
+      renderPublicationStats(sortedRecords);
+
       let currentYear = null;
-      for (const record of sortedRecords) {
+
+      sortedRecords.forEach(record => {
         if (record.year !== currentYear) {
           currentYear = record.year;
-          const yearHeading = document.createElement('h3');
-          yearHeading.textContent = currentYear;
-          container.appendChild(yearHeading);
+          const heading = document.createElement("h3");
+          heading.className = "publication-year";
+          heading.textContent = currentYear;
+          container.appendChild(heading);
         }
 
-        container.appendChild(createPaperElement(record));
-      }
-    }
+        const item = document.createElement("article");
+        item.className = "publication-item";
 
-    function createPaperElement(record) {
-      const paper = document.createElement('article');
-      paper.className = 'paper';
+        const meta = document.createElement("div");
+        meta.className = "publication-meta";
+        meta.textContent = [getVenueLabel(record.venue), normalizeSpaces(record.level)]
+          .filter(hasValue)
+          .join(" • ");
+        item.appendChild(meta);
 
-      paper.appendChild(createTitleLine(record));
-      paper.appendChild(createAuthorLine(record));
-      paper.appendChild(createVenueLine(record));
-
-      return paper;
-    }
-
-    function createTitleLine(record) {
-      const line = document.createElement('div');
-      line.className = 'paper-line paper-title';
-
-      const strong = document.createElement('strong');
-      if (hasValue(record.link)) {
-        const link = document.createElement('a');
-        link.href = record.link;
-        link.target = '_blank';
-        link.rel = 'noopener noreferrer';
-        link.textContent = record.title || '';
-        strong.appendChild(link);
-      } else {
-        strong.textContent = record.title || '';
-      }
-      line.appendChild(strong);
-
-      if ((record.status || '').trim().toLowerCase() === 'ac') {
-        line.appendChild(document.createTextNode(' (Accepted)'));
-      }
-
-      return line;
-    }
-
-    function createAuthorLine(record) {
-      const line = document.createElement('div');
-      line.className = 'paper-line';
-
-      const authors = splitNames(record.author);
-      const corauthors = new Set(splitNames(record.corauthor));
-      const cofirstAuthors = new Set(splitNames(record.cofauthor));
-
-      authors.forEach((author, index) => {
-        const nameNode = author === 'Shengcheng Yu'
-          ? createStrongText(author)
-          : document.createTextNode(author);
-        line.appendChild(nameNode);
-
-        if (corauthors.has(author)) {
-          line.appendChild(createSup('*'));
-        }
-        if (cofirstAuthors.has(author)) {
-          line.appendChild(createSup('#'));
-        }
-
-        if (index === authors.length - 1) {
-          line.appendChild(document.createTextNode('.'));
+        const title = document.createElement("h3");
+        if (hasValue(record.link)) {
+          const link = document.createElement("a");
+          link.href = record.link;
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+          link.textContent = normalizeSpaces(record.title);
+          title.appendChild(link);
         } else {
-          line.appendChild(document.createTextNode(', '));
+          title.textContent = normalizeSpaces(record.title);
         }
+        item.appendChild(title);
+
+        const authors = document.createElement("p");
+        authors.textContent = normalizeSpaces(record.author);
+        item.appendChild(authors);
+
+        if (hasValue(record.note)) {
+          const note = document.createElement("p");
+          note.className = "publication-note";
+          note.textContent = normalizeSpaces(record.note);
+          item.appendChild(note);
+        }
+
+        container.appendChild(item);
       });
-
-      return line;
     }
 
-    function createVenueLine(record) {
-      const line = document.createElement('div');
-      line.className = 'paper-line';
+    function renderMembers(container, records) {
+      records.forEach(record => {
+        const item = document.createElement("article");
+        item.className = record.type === "featured" ? "member-card member-card-featured" : "member-card";
 
-      if (hasValue(record.level)) {
-        const level = document.createElement('strong');
-        level.textContent = `[${record.level}]`;
-        line.appendChild(level);
-        if (hasValue(record.venue)) {
-          line.appendChild(document.createTextNode(' '));
+        if (record.type === "featured" && hasValue(record.image)) {
+          const image = document.createElement("img");
+          image.src = record.image;
+          image.alt = record.name || "Team member";
+          item.appendChild(image);
         }
-      }
 
-      if (hasValue(record.venue)) {
-        line.appendChild(document.createTextNode(record.venue));
-      }
+        const content = document.createElement("div");
 
-      return line;
+        const name = document.createElement("h3");
+        name.textContent = normalizeSpaces(record.name);
+        content.appendChild(name);
+
+        if (hasValue(record.role)) {
+          const role = document.createElement("p");
+          role.className = "member-role";
+          role.textContent = normalizeSpaces(record.role);
+          content.appendChild(role);
+        }
+
+        if (hasValue(record.description)) {
+          const description = document.createElement("p");
+          description.textContent = normalizeSpaces(record.description);
+          content.appendChild(description);
+        }
+
+        if (Array.isArray(record.highlights) && record.highlights.length > 0) {
+          const list = document.createElement("ul");
+          list.className = "feature-list compact-feature-list";
+          record.highlights.forEach(highlight => {
+            if (!hasValue(highlight)) return;
+            const li = document.createElement("li");
+            li.textContent = normalizeSpaces(highlight);
+            list.appendChild(li);
+          });
+          content.appendChild(list);
+        }
+
+        item.appendChild(content);
+        container.appendChild(item);
+      });
     }
 
-    function splitNames(value) {
-      if (!hasValue(value)) return [];
-      return value
-        .split(/[;,]/)
-        .map(name => name.trim())
-        .filter(name => hasValue(name));
+    function renderPublicationStats(records) {
+      const years = [...new Set(records.map(record => normalizeSpaces(record.year)).filter(hasValue))];
+      const venues = new Set(records.map(record => getVenueLabel(record.venue)).filter(hasValue));
+      const minYear = years.length ? Math.min(...years.map(year => Number.parseInt(year, 10))) : "--";
+      const maxYear = years.length ? Math.max(...years.map(year => Number.parseInt(year, 10))) : "--";
+
+      setText("stat-publications", String(records.length));
+      setText("stat-years", String(years.length));
+      setText("stat-venues", String(venues.size));
+      setText("summary-total", String(records.length));
+      setText("summary-range", `${minYear}-${maxYear}`);
+    }
+
+    function renderSupport(container, records) {
+      records.forEach(record => {
+        const item = document.createElement("article");
+        item.className = "support-card";
+
+        if (hasValue(record.image)) {
+          const image = document.createElement("img");
+          image.src = record.image;
+          image.alt = normalizeSpaces(record.title) || "Support illustration";
+          item.appendChild(image);
+        }
+
+        const title = document.createElement("h3");
+        title.textContent = normalizeSpaces(record.title);
+        item.appendChild(title);
+
+        if (Array.isArray(record.items) && record.items.length > 0) {
+          const list = document.createElement("ul");
+          list.className = "feature-list";
+          record.items.forEach(entry => {
+            if (!hasValue(entry)) return;
+            const li = document.createElement("li");
+            li.textContent = normalizeSpaces(entry);
+            list.appendChild(li);
+          });
+          item.appendChild(list);
+        }
+
+        container.appendChild(item);
+      });
+    }
+
+    function renderTeaching(container, records) {
+      records.forEach(record => {
+        const item = document.createElement("article");
+        item.className = "teaching-card";
+
+        const title = document.createElement("h3");
+        title.textContent = normalizeSpaces(record.title);
+        item.appendChild(title);
+
+        if (hasValue(record.description)) {
+          const description = document.createElement("p");
+          description.textContent = normalizeSpaces(record.description);
+          item.appendChild(description);
+        }
+
+        if (hasValue(record.tag)) {
+          const tag = document.createElement("span");
+          tag.className = "teaching-tag";
+          tag.textContent = normalizeSpaces(record.tag);
+          item.appendChild(tag);
+        }
+
+        container.appendChild(item);
+      });
     }
 
     function hasValue(value) {
-      return value !== undefined && value !== null && String(value).trim() !== '' && String(value).trim() !== '/';
+      return typeof value === "string" ? value.trim() !== "" && value.trim() !== "/" : Boolean(value);
     }
 
     function numberOrFallback(value) {
-      const number = Number(value);
-      return Number.isFinite(number) ? number : 0;
+      const parsed = Number.parseInt(value, 10);
+      return Number.isNaN(parsed) ? Number.MAX_SAFE_INTEGER : parsed;
     }
 
-    function createStrongText(text) {
-      const strong = document.createElement('strong');
-      strong.textContent = text;
-      return strong;
+    function normalizeSpaces(text) {
+      return String(text || "").replace(/\s+/g, " ").trim();
     }
 
-    function createSup(text) {
-      const sup = document.createElement('sup');
-      sup.textContent = text;
-      return sup;
+    function getVenueLabel(venue) {
+      const normalized = normalizeSpaces(venue);
+      if (!hasValue(normalized)) return "";
+      if (/\([A-Z0-9/.-]+\)/.test(normalized)) return normalized;
+
+      const abbreviations = {
+        "ACM Transactions on Software Engineering and Methodology": "TOSEM",
+        "ACM International Conference on the Foundations of Software Engineering": "FSE",
+        "IEEE Transactions on Software Engineering": "TSE",
+        "ACM Computing Surveys": "CSUR",
+        "Frontiers of Computer Science": "FCS",
+        "IEEE/ACM International Conference on Automated Software Engineering": "ASE",
+        "IEEE/ACM International Conference on Software Engineering": "ICSE",
+        "Journal of Systems and Software": "JSS",
+        "Information and Software Technology": "IST",
+        "Science China Information Sciences": "SCIS",
+        "Journal of Software": "JOS",
+        "ACM SIGSOFT International Symposium on Software Testing and Analysis": "ISSTA",
+        "ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering": "ESEC/FSE",
+        "IEEE International Conference on Software Quality, Reliability, and Security": "QRS",
+        "International Conference on Dependable Systems and Their Applications": "DSA",
+        "Asia-Pacific Symposium on Internetware": "Internetware",
+        "Computer Education": "CE"
+      };
+
+      for (const [name, abbr] of Object.entries(abbreviations)) {
+        if (normalized.startsWith(name)) {
+          return `${normalized} (${abbr})`;
+        }
+      }
+
+      return normalized;
+    }
+
+    function setText(id, value) {
+      const node = document.getElementById(id);
+      if (node) node.textContent = value;
+    }
+
+    function renderError(container, message) {
+      const error = document.createElement("p");
+      error.className = "publication-error";
+      error.textContent = message;
+      container.appendChild(error);
     }
   </script>
 </body>

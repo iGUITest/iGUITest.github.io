@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Shengcheng Yu",
+    "role": "Software Testing and Intelligent QA",
+    "type": "featured",
+    "image": "YSC.jpg",
+    "description": "Focuses on GUI testing, mobile app quality assurance, test migration, and LLM-based testing workflows.",
+    "highlights": [
+      "Representative author across mobile GUI testing and LLM-driven QA",
+      "Active in both research publication and testing education topics"
+    ]
+  },
+  {
+    "name": "Chunrong Fang",
+    "role": "Research Collaborator",
+    "description": "Contributes to software testing methodology, crowdsourced testing analysis, and empirical evaluation at scale."
+  },
+  {
+    "name": "Zhenyu Chen",
+    "role": "Research Collaborator",
+    "description": "Works on dependable software engineering, testing systems, and broader quality assurance research directions."
+  },
+  {
+    "name": "Yuchen Ling",
+    "role": "Student Researcher",
+    "description": "Studies report consistency detection, cognitive modeling, and LLM-supported crowdsourced testing."
+  },
+  {
+    "name": "Quan Zhou",
+    "role": "Student Researcher",
+    "description": "Focuses on semantic understanding of crowdsourced testing reports, clustering, and prioritization."
+  }
+]
